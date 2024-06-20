@@ -5,26 +5,30 @@ INTRODUÇÃO
 Esta API fornece serviços para resolver diferentes tipos de captchas, incluindo reCAPTCHA v2, reCAPTCHA v3, hCaptcha e Cloudflare. Ela utiliza a plataforma 2Captcha para resolver os captchas e retornar as soluções.
 
 Configuração
+
 Para executar a aplicação, é necessário ter o Python e as bibliotecas Flask e requests instaladas. Além disso, a chave de API do 2Captcha deve ser configurada.
 
-
 Necessárias instalações para funcionamento
+
 pip install Flask requests
 
 Inicialização
+
 Crie e execute o aplicativo Flask:
+
 if __name__ == '__main__':
     app = create_app()
     app.run(debug=True)
     
 Endpoints
-Home
+
 Rota: /
 Método: GET
 Descrição: Fornece uma descrição do serviço.
 Resposta:
 
 "Serviço de API do 2Captcha, contendo: Recaptcha (v2,v3), Hcaptcha e Cloudflare."
+
 Resolver reCAPTCHA v2
 Rota: /recaptchav2
 Método: GET
