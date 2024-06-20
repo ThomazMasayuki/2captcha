@@ -1,6 +1,7 @@
 # 2captcha
 
 INTRODUÇÃO
+
 Esta API fornece serviços para resolver diferentes tipos de captchas, incluindo reCAPTCHA v2, reCAPTCHA v3, hCaptcha e Cloudflare. Ela utiliza a plataforma 2Captcha para resolver os captchas e retornar as soluções.
 
 Configuração
