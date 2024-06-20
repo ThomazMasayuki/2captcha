@@ -25,6 +25,7 @@ Endpoints
 Rota: /
 Método: GET
 Descrição: Fornece uma descrição do serviço.
+
 Resposta:
 
 "Serviço de API do 2Captcha, contendo: Recaptcha (v2,v3), Hcaptcha e Cloudflare."
@@ -55,6 +56,7 @@ page_url: URL da página onde o captcha está presente.
 Exemplo de Solicitação:
 
 "http://localhost:5000/recaptchav3?site_key=6LfB5_IbAAAAAMCtsjEHEHKqcB9iQocwwxTiihJu&page_url=https://2captcha.com/demo/recaptcha-v3&version=v3"
+
 Resposta:
 
 {
@@ -68,8 +70,8 @@ Parâmetros:
 site_key: Chave do site para o hCaptcha.
 page_url: URL da página onde o captcha está presente.
 
-Exemplo de Solicitação:
 "http://localhost:5000/hcaptcha?site_key=f7de0da3-3303-44e8-ab48-fa32ff8ccc7b&page_url=https://2captcha.com/demo/hcaptcha"
+
 Resposta:
 
 {
@@ -84,6 +86,7 @@ site_key: Chave do site para o Cloudflare.
 page_url: URL da página onde o captcha está presente.
 
 "http://localhost:5000/cloudflare?site_key=0x4AAAAAAAVrOwQWPlm3Bnr5&page_url=https://2captcha.com/demo/cloudflare-turnstile"
+
 Resposta:
 
 {
